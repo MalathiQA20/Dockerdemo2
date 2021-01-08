@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "RegisterNewUser" parallel="tests">
+<test name = "Register-User-1">
+    <parameter name ="emailID" value ="Jhondoe2@Twilight.com"/>
+    <parameter name ="genderOption" value ="1"/>
+    <parameter name="fname" value="Tony"/>
+    <parameter name="lname" value="Stark"/>
+    <parameter name="day" value="13"/>
+    <parameter name="month" value="April"/>
+    <parameter name="year" value="1987"/>
+    <classes>
+        <class name="com.automation.RegistrationTest" />
+    </classes>
+</test>
+<test name = "Register-User-2">
+    <parameter name ="emailID" value ="Jhon_doe3@avengers.com"/>
+    <parameter name ="genderOption" value ="2"/>
+    <parameter name="fname" value="Black"/>
+    <parameter name="lname" value="Widow"/>
+    <parameter name="day" value="12"/>
+    <parameter name="month" value="March"/>
+    <parameter name="year" value="1981"/>
+    <classes>
+        <class name="com.automation.RegistrationTest" />
+    </classes>
+</test>
+</suite>

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "RegisterNewUser" parallel="tests">
+<test name = "Register-User">
+
+    <classes>
+        <class name="com.parabank.RegistrationBank" />
+    </classes>
+</test>
+
+</suite>

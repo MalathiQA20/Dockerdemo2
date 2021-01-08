@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [RegisterNewUser]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Register-User-1(failed)">
+    <classes>
+      <class name="com.automation.sivatemp">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="registrationPage"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.automation.sivatemp -->
+    </classes>
+  </test> <!-- Register-User-1(failed) -->
+</suite> <!-- Failed suite [RegisterNewUser] -->
